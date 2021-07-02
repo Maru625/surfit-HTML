@@ -1,0 +1,25 @@
+.right-menu{
+    display:inline-flex;
+    width:255px;
+    height:59px;
+    font-size:15px;
+    align-items: center;
+}
+.water{
+    display:block;
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+}
+.home{
+    height: 14px;
+    margin:0 14px;
+}
+.directory{
+    height: 14px;
+    margin:0 14px;
+}
+.hire{
+    height: 14px;
+    margin:0 14px;
+}

@@ -1,0 +1,10 @@
+.head-menu{
+    display:flex;
+    width: clrc(100%-40px);
+    height:60px;
+    color: #78797F;
+    padding: 0 24px;
+    justify-content: space-between;
+    background-color: #17181E;
+    border-bottom:1px solid hsla(0,0%,100%,.07);
+}

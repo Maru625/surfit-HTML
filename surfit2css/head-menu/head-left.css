@@ -1,0 +1,24 @@
+.left-menu{
+    display: inline-flex;
+    width:175px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+.sreach{
+    width: 20px;
+    height: 20px;
+}
+.bell{
+    width: 20px;
+    height: 20px;
+}
+.header-heart{
+    width: 20px;
+    height: 20px;
+}
+.my-icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 4px;
+}
