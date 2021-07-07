@@ -1,0 +1,67 @@
+.main{
+    display:flex;
+    padding: 0 20px;
+    justify-content:center;
+}
+.body-main{
+        width: 625px;
+        gap :25px;
+        grid-template-columns: repeat(2, 300px);
+}
+
+.blue-button{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    width: 183px;
+    height: 60px;
+    color:white;
+    background-color: #3562ff;
+    border-radius: 30px;
+    z-index: 1;
+    text-align: center;
+}
+.plus{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 300;
+    vertical-align: middle;
+    margin:12px 0;
+}
+.enrollment{
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+
+
+@media screen and (min-width: 770px) { 
+    .body-main{
+        width: 625px;
+        gap :25px;
+        grid-template-columns: repeat(2, 300px);
+    }
+}
+@media screen and (min-width: 1025px) { 
+    .body-main{
+        width: 625px;
+        gap :25px;
+        grid-template-columns: repeat(2, 300px);
+    }
+}
+@media screen and (min-width: 1260px) { 
+    .body-main{
+        width: 950px;
+        gap :25px;
+        grid-template-columns: repeat(3, 300px);
+    }
+}
+
+@media screen and (min-width: 1601px) { 
+    .body-main{
+        width: 1410px;
+        gap :25px;
+        grid-template-columns: repeat(4, 330px);
+    }
+}

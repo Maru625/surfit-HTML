@@ -21,3 +21,21 @@ p{
     vertical-align: bottom;
     line-height: 0;
 }
+@media screen and (max-width:1025px){
+    .headline{
+        font-size:18px;
+        border-radius: 10px;
+        font-weight:100%;
+        background-color: #1f2026;
+        height: 60px;
+        align-items: center;
+        padding-left: 20px;
+    }
+    .img-question{
+        display: none;
+    }
+    .q-ment{
+        display: none;
+    }
+
+}

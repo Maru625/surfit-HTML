@@ -11,84 +11,107 @@
 .img-dirc{
     width:18px;
     height: 18px;
+    margin-right: 5px;
 }
 .all-dirc{
     display: block;
     height: 18px;
-    padding: 10.5px 12px 10.5px 48px;
+    padding: 10.5px 50px 10.5px 12px;
     margin: 0px 0px 4px;
     background-color: #1F2026;
     color:#E8E9EE;
     border-radius: 4px;
     font-size: 18px;
+    text-align: left;
 }
 .img-development{
     width:18px;
     height: 18px;
+    margin-right: 5px;
 }
 .development{
+    display: block;
     height: 18px;
-    padding: 10.5px 12px 10.5px 48px;
+    padding: 10.5px 50px 10.5px 12px;
     margin: 0px 0px 4px;
     background-color: #17181E;
     color:#78797D;
     border-radius: 4px;
-    vertical-align: middle;
     font-size: 18px;
+    text-align: left;
 }
 .img-plan{
     width:18px;
     height: 18px;
+    margin-right: 5px;
 }
 .plan{
+    display: block;
     height: 18px;
-    padding: 10.5px 12px 10.5px 48px;
+    padding: 10.5px 50px 10.5px 12px;
     margin: 0px 0px 4px;
     background-color: #17181E;
     color:#78797D;
     border-radius: 4px;
-    vertical-align: middle;
     font-size: 18px;
+    text-align: left;
 }
 .img-design{
     width:18px;
     height: 18px;
+    margin-right: 5px;
 }
 .design{
+    display: block;
     height: 18px;
-    padding: 10.5px 12px 10.5px 48px;
+    padding: 10.5px 50px 10.5px 12px;
     margin: 0px 0px 4px;
     background-color: #17181E;
     color:#78797D;
     border-radius: 4px;
-    vertical-align: middle;
     font-size: 18px;
+    text-align: left;
 }
 .img-marketing{
     width:18px;
     height: 18px;
+    margin-right: 5px;
 }
 .marketing{
+    display: block;
     height: 18px;
-    padding: 10.5px 12px 10.5px 48px;
+    padding: 10.5px 50px 10.5px 12px;
     margin: 0px 0px 4px;
     background-color: #17181E;
     color:#78797D;
     border-radius: 4px;
-    vertical-align: middle;
     font-size: 18px;
+    text-align: left;
 }
 .img-startup{
     width:18px;
     height: 18px;
+    margin-right: 5px;
 }
 .startup{
+    display: block;
     height: 18px;
-    padding: 10.5px 12px 10.5px 48px;
+    padding: 10.5px 50px 10.5px 12px;
     margin: 0px 0px 4px;
     background-color: #17181E;
     color:#78797D;
     border-radius: 4px;
-    vertical-align: middle;
     font-size: 18px;
+    text-align: left;
+}
+
+@media screen and (min-width: 1800px) { 
+    .var-menu{
+        width:260px
+    }
+}
+@media screen and (max-width: 1025px) {
+    .var-menu{
+        display:none;
+    }
 }
